@@ -1,0 +1,10 @@
+---
+- name: call multiline templated string role
+  hosts: localhost
+  vars:
+   - var_from_playbook: var_from_playbook_VALUE
+  roles:
+   - testrole
+
+
+

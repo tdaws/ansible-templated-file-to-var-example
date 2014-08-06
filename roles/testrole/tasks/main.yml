@@ -1,0 +1,6 @@
+---
+- name: Test multiline templated var
+  debug:
+    msg: "{{ lookup('file', 'testfile.yml') }}"
+
+
