@@ -1,0 +1,8 @@
+---
+multilinevar_from_included_varfile: |
+  var_tests:
+   - name: var_from_playbook
+     v: {{ var_from_playbook }}
+
+   - name: var_from_role
+     v: {{ var_from_role }}
