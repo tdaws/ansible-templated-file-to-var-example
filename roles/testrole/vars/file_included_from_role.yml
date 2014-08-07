@@ -8,4 +8,5 @@ multilinevar_from_included_varfile: |
      v: {{ var_from_role }}
 
    - name: include some script in yaml format
-     script: {{ script_content }}
+     script: |
+       {{ script_content|indent(4) }}"
