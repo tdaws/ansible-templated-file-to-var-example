@@ -3,7 +3,10 @@
   debug:
     msg: "{{ lookup('file', 'testfile.yml') }}"
 
+- include_vars: my_script_to_be_included.yml
 - include_vars: file_included_from_role.yml
+
+
 - name: Test multiline templated var with include_vars
   debug:
     msg: "{{ multilinevar_from_included_varfile }}"

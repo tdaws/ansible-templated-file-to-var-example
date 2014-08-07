@@ -1,0 +1,5 @@
+---
+script_content: |
+  #!/bin/bash
+  echo this is my script!
+  echo notice that the lines in the final output are not indented currently to be parsed correctly in the task file

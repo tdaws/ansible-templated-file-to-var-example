@@ -6,3 +6,6 @@ multilinevar_from_included_varfile: |
 
    - name: var_from_role
      v: {{ var_from_role }}
+
+   - name: include some script in yaml format
+     script: {{ script_content }}
